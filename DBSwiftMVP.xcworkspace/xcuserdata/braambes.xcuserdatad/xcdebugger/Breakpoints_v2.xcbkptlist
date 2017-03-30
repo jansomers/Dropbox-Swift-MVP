@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "DBSwiftMVP/DropboxEntriesPresenter.swift"
+            timestampString = "512575555.002375"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "70"
+            endingLineNumber = "70"
+            landmarkName = "onGetEntriesError(reason:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "DBSwiftMVP/DropboxEntriesTableViewController.swift"
+            timestampString = "512575604.55442"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "104"
+            endingLineNumber = "104"
+            landmarkName = "showError(error:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "DBSwiftMVP.DropboxEntriesTableViewController.showError (error : Swift.String) -&gt; ()"
+                  moduleName = "DBSwiftMVP"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/braambes/Documents/Programming/iOs/Projects/DBSwiftMVP/DBSwiftMVP/DropboxEntriesTableViewController.swift"
+                  timestampString = "512575705.991175"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "104"
+                  endingLineNumber = "104"
+                  offsetFromSymbolStart = "28">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "DBSwiftMVP.DropboxEntriesTableViewController.(showError (error : Swift.String) -&gt; ()).(closure #1)"
+                  moduleName = "DBSwiftMVP"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/braambes/Documents/Programming/iOs/Projects/DBSwiftMVP/DBSwiftMVP/DropboxEntriesTableViewController.swift"
+                  timestampString = "512575705.993401"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "105"
+                  endingLineNumber = "105"
+                  offsetFromSymbolStart = "32">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

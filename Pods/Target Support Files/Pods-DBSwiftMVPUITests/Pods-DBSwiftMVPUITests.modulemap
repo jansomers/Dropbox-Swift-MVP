@@ -1,0 +1,6 @@
+framework module Pods_DBSwiftMVPUITests {
+  umbrella header "Pods-DBSwiftMVPUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

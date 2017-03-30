@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "DBSwiftMVP/AuthorisationPresenter.swift"
+            timestampString = "512568884.552629"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "20"
+            endingLineNumber = "20"
+            landmarkName = "AuthorisationListener"
+            landmarkType = "5">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "DBSwiftMVP.AuthorisationPresenter.__deallocating_deinit"
+                  moduleName = "DBSwiftMVP"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/braambes/Documents/Programming/iOs/Projects/DBSwiftMVP/DBSwiftMVP/AuthorisationPresenter.swift"
+                  timestampString = "512575705.978261"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "12">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "DBSwiftMVP.AuthorisationPresenter.deinit"
+                  moduleName = "DBSwiftMVP"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/braambes/Documents/Programming/iOs/Projects/DBSwiftMVP/DBSwiftMVP/AuthorisationPresenter.swift"
+                  timestampString = "512575705.981215"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "12">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "DBSwiftMVP/AccountPresenter.swift"
+            timestampString = "512571527.368448"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "39"
+            endingLineNumber = "39"
+            landmarkName = "AccountPresenter"
+            landmarkType = "4">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

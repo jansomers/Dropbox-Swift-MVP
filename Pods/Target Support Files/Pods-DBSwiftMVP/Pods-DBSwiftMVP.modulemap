@@ -1,0 +1,6 @@
+framework module Pods_DBSwiftMVP {
+  umbrella header "Pods-DBSwiftMVP-umbrella.h"
+
+  export *
+  module * { export * }
+}

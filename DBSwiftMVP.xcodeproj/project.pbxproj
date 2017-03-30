@@ -7,14 +7,34 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1FAD0B19874ABD7E12C759E0 /* Pods_DBSwiftMVPUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04047E7CEE47F4AF55585F72 /* Pods_DBSwiftMVPUITests.framework */; };
+		28DB146F215121B4BDF488D4 /* Pods_DBSwiftMVP.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 381B005D7AA71E0627E69657 /* Pods_DBSwiftMVP.framework */; };
+		60754E6EE2771B6B505F3D36 /* Pods_DBSwiftMVPTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 85EBF8B8A930AE8FB53D1CD1 /* Pods_DBSwiftMVPTests.framework */; };
+		701A7B421E8AA18A002A3375 /* Info-tvOS.plist in Resources */ = {isa = PBXBuildFile; fileRef = 701A7B3E1E8AA18A002A3375 /* Info-tvOS.plist */; };
+		701A7B431E8AA18A002A3375 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 701A7B3F1E8AA18A002A3375 /* Info.plist */; };
+		701A7B441E8AA18A002A3375 /* SwiftSpinner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 701A7B411E8AA18A002A3375 /* SwiftSpinner.swift */; };
 		703CAE761E88ED0F001685C7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 703CAE751E88ED0F001685C7 /* AppDelegate.swift */; };
-		703CAE781E88ED0F001685C7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 703CAE771E88ED0F001685C7 /* ViewController.swift */; };
 		703CAE7B1E88ED0F001685C7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 703CAE791E88ED0F001685C7 /* Main.storyboard */; };
 		703CAE7E1E88ED0F001685C7 /* DBSwiftMVP.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 703CAE7C1E88ED0F001685C7 /* DBSwiftMVP.xcdatamodeld */; };
 		703CAE801E88ED0F001685C7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 703CAE7F1E88ED0F001685C7 /* Assets.xcassets */; };
 		703CAE831E88ED0F001685C7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 703CAE811E88ED0F001685C7 /* LaunchScreen.storyboard */; };
 		703CAE8E1E88ED0F001685C7 /* DBSwiftMVPTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 703CAE8D1E88ED0F001685C7 /* DBSwiftMVPTests.swift */; };
 		703CAE991E88ED0F001685C7 /* DBSwiftMVPUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 703CAE981E88ED0F001685C7 /* DBSwiftMVPUITests.swift */; };
+		7056CC131E88F3A3006EE269 /* AuthorisationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7056CC121E88F3A3006EE269 /* AuthorisationViewController.swift */; };
+		7056CC1C1E88FA28006EE269 /* AuthorisationPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7056CC1B1E88FA28006EE269 /* AuthorisationPresenter.swift */; };
+		7056CC1E1E88FA86006EE269 /* AuthorisationInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7056CC1D1E88FA86006EE269 /* AuthorisationInteractor.swift */; };
+		7056CC281E893765006EE269 /* AccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7056CC271E893765006EE269 /* AccountViewController.swift */; };
+		7056CC2A1E893777006EE269 /* AccountPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7056CC291E893777006EE269 /* AccountPresenter.swift */; };
+		7056CC2C1E89378E006EE269 /* AccountInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7056CC2B1E89378E006EE269 /* AccountInteractor.swift */; };
+		7056CC311E895CF9006EE269 /* DropboxEntriesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7056CC301E895CF9006EE269 /* DropboxEntriesTableViewController.swift */; };
+		7056CC341E8961C5006EE269 /* DropboxEntriesPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7056CC331E8961C5006EE269 /* DropboxEntriesPresenter.swift */; };
+		7056CC361E8961DB006EE269 /* DropboxEntriesInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7056CC351E8961DB006EE269 /* DropboxEntriesInteractor.swift */; };
+		70B5E05E1E8BAEDD00F68C24 /* DropboxEntryDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70B5E05D1E8BAEDD00F68C24 /* DropboxEntryDetailViewController.swift */; };
+		70B5E0601E8BB1FD00F68C24 /* DropboxEntryDetailPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70B5E05F1E8BB1FD00F68C24 /* DropboxEntryDetailPresenter.swift */; };
+		70B5E0621E8BB22700F68C24 /* DropboxEntryDetailInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70B5E0611E8BB22700F68C24 /* DropboxEntryDetailInteractor.swift */; };
+		70E1DFBF1E8A4050007BD827 /* DropboxEntryViewObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70E1DFBE1E8A4050007BD827 /* DropboxEntryViewObject.swift */; };
+		70E1DFC11E8A4166007BD827 /* FileObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70E1DFC01E8A4166007BD827 /* FileObject.swift */; };
+		70E1DFC31E8A6491007BD827 /* DropboxEntryOverviewTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70E1DFC21E8A6491007BD827 /* DropboxEntryOverviewTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,9 +55,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		04047E7CEE47F4AF55585F72 /* Pods_DBSwiftMVPUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DBSwiftMVPUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		249D2CB3730AE93B3C92B8F4 /* Pods-DBSwiftMVP.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DBSwiftMVP.release.xcconfig"; path = "Pods/Target Support Files/Pods-DBSwiftMVP/Pods-DBSwiftMVP.release.xcconfig"; sourceTree = "<group>"; };
+		381B005D7AA71E0627E69657 /* Pods_DBSwiftMVP.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DBSwiftMVP.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		65EF53C5191948BF1D6BD6A3 /* Pods-DBSwiftMVPTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DBSwiftMVPTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DBSwiftMVPTests/Pods-DBSwiftMVPTests.debug.xcconfig"; sourceTree = "<group>"; };
+		701A7B3E1E8AA18A002A3375 /* Info-tvOS.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Info-tvOS.plist"; sourceTree = "<group>"; };
+		701A7B3F1E8AA18A002A3375 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		701A7B401E8AA18A002A3375 /* SwiftSpinner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SwiftSpinner.h; sourceTree = "<group>"; };
+		701A7B411E8AA18A002A3375 /* SwiftSpinner.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftSpinner.swift; sourceTree = "<group>"; };
 		703CAE721E88ED0F001685C7 /* DBSwiftMVP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DBSwiftMVP.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		703CAE751E88ED0F001685C7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		703CAE771E88ED0F001685C7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		703CAE7A1E88ED0F001685C7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		703CAE7D1E88ED0F001685C7 /* DBSwiftMVP.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DBSwiftMVP.xcdatamodel; sourceTree = "<group>"; };
 		703CAE7F1E88ED0F001685C7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -49,6 +76,27 @@
 		703CAE941E88ED0F001685C7 /* DBSwiftMVPUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DBSwiftMVPUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		703CAE981E88ED0F001685C7 /* DBSwiftMVPUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DBSwiftMVPUITests.swift; sourceTree = "<group>"; };
 		703CAE9A1E88ED0F001685C7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7056CC121E88F3A3006EE269 /* AuthorisationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthorisationViewController.swift; sourceTree = "<group>"; };
+		7056CC1A1E88F80A006EE269 /* DBSwiftMVP.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = DBSwiftMVP.entitlements; sourceTree = "<group>"; };
+		7056CC1B1E88FA28006EE269 /* AuthorisationPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthorisationPresenter.swift; sourceTree = "<group>"; };
+		7056CC1D1E88FA86006EE269 /* AuthorisationInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthorisationInteractor.swift; sourceTree = "<group>"; };
+		7056CC271E893765006EE269 /* AccountViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccountViewController.swift; sourceTree = "<group>"; };
+		7056CC291E893777006EE269 /* AccountPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccountPresenter.swift; sourceTree = "<group>"; };
+		7056CC2B1E89378E006EE269 /* AccountInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccountInteractor.swift; sourceTree = "<group>"; };
+		7056CC301E895CF9006EE269 /* DropboxEntriesTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DropboxEntriesTableViewController.swift; sourceTree = "<group>"; };
+		7056CC331E8961C5006EE269 /* DropboxEntriesPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DropboxEntriesPresenter.swift; sourceTree = "<group>"; };
+		7056CC351E8961DB006EE269 /* DropboxEntriesInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DropboxEntriesInteractor.swift; sourceTree = "<group>"; };
+		70B5E05D1E8BAEDD00F68C24 /* DropboxEntryDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DropboxEntryDetailViewController.swift; sourceTree = "<group>"; };
+		70B5E05F1E8BB1FD00F68C24 /* DropboxEntryDetailPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DropboxEntryDetailPresenter.swift; sourceTree = "<group>"; };
+		70B5E0611E8BB22700F68C24 /* DropboxEntryDetailInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DropboxEntryDetailInteractor.swift; sourceTree = "<group>"; };
+		70E1DFBE1E8A4050007BD827 /* DropboxEntryViewObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DropboxEntryViewObject.swift; sourceTree = "<group>"; };
+		70E1DFC01E8A4166007BD827 /* FileObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FileObject.swift; sourceTree = "<group>"; };
+		70E1DFC21E8A6491007BD827 /* DropboxEntryOverviewTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DropboxEntryOverviewTableViewCell.swift; sourceTree = "<group>"; };
+		72000AF57425D1B54BF22619 /* Pods-DBSwiftMVPTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DBSwiftMVPTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-DBSwiftMVPTests/Pods-DBSwiftMVPTests.release.xcconfig"; sourceTree = "<group>"; };
+		819982B21E83C495E8065F47 /* Pods-DBSwiftMVPUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DBSwiftMVPUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-DBSwiftMVPUITests/Pods-DBSwiftMVPUITests.release.xcconfig"; sourceTree = "<group>"; };
+		85EBF8B8A930AE8FB53D1CD1 /* Pods_DBSwiftMVPTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DBSwiftMVPTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9038E2668A2BF6308F997BBE /* Pods-DBSwiftMVP.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DBSwiftMVP.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DBSwiftMVP/Pods-DBSwiftMVP.debug.xcconfig"; sourceTree = "<group>"; };
+		E15D44E36E6D999CC09A4D45 /* Pods-DBSwiftMVPUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DBSwiftMVPUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DBSwiftMVPUITests/Pods-DBSwiftMVPUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +104,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				28DB146F215121B4BDF488D4 /* Pods_DBSwiftMVP.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +112,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				60754E6EE2771B6B505F3D36 /* Pods_DBSwiftMVPTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +120,48 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1FAD0B19874ABD7E12C759E0 /* Pods_DBSwiftMVPUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		233BE75CB49313D5C3E883C6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				381B005D7AA71E0627E69657 /* Pods_DBSwiftMVP.framework */,
+				85EBF8B8A930AE8FB53D1CD1 /* Pods_DBSwiftMVPTests.framework */,
+				04047E7CEE47F4AF55585F72 /* Pods_DBSwiftMVPUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		24D01181CB154DF0ED189F0A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9038E2668A2BF6308F997BBE /* Pods-DBSwiftMVP.debug.xcconfig */,
+				249D2CB3730AE93B3C92B8F4 /* Pods-DBSwiftMVP.release.xcconfig */,
+				65EF53C5191948BF1D6BD6A3 /* Pods-DBSwiftMVPTests.debug.xcconfig */,
+				72000AF57425D1B54BF22619 /* Pods-DBSwiftMVPTests.release.xcconfig */,
+				E15D44E36E6D999CC09A4D45 /* Pods-DBSwiftMVPUITests.debug.xcconfig */,
+				819982B21E83C495E8065F47 /* Pods-DBSwiftMVPUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		701A7B3D1E8AA18A002A3375 /* SwiftSpinner */ = {
+			isa = PBXGroup;
+			children = (
+				701A7B3E1E8AA18A002A3375 /* Info-tvOS.plist */,
+				701A7B3F1E8AA18A002A3375 /* Info.plist */,
+				701A7B401E8AA18A002A3375 /* SwiftSpinner.h */,
+				701A7B411E8AA18A002A3375 /* SwiftSpinner.swift */,
+			);
+			name = SwiftSpinner;
+			path = ../SwiftSpinner;
+			sourceTree = "<group>";
+		};
 		703CAE691E88ED0F001685C7 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +169,8 @@
 				703CAE8C1E88ED0F001685C7 /* DBSwiftMVPTests */,
 				703CAE971E88ED0F001685C7 /* DBSwiftMVPUITests */,
 				703CAE731E88ED0F001685C7 /* Products */,
+				24D01181CB154DF0ED189F0A /* Pods */,
+				233BE75CB49313D5C3E883C6 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,13 +187,11 @@
 		703CAE741E88ED0F001685C7 /* DBSwiftMVP */ = {
 			isa = PBXGroup;
 			children = (
+				70B5E0641E8C082F00F68C24 /* Supporting files */,
+				70B5E0631E8C07FA00F68C24 /* Unnecessary fancy frameworks */,
+				7056CC2D1E895B2C006EE269 /* DropboxEntries */,
+				7056CC111E88F388006EE269 /* DropboxAuthorisation */,
 				703CAE751E88ED0F001685C7 /* AppDelegate.swift */,
-				703CAE771E88ED0F001685C7 /* ViewController.swift */,
-				703CAE791E88ED0F001685C7 /* Main.storyboard */,
-				703CAE7F1E88ED0F001685C7 /* Assets.xcassets */,
-				703CAE811E88ED0F001685C7 /* LaunchScreen.storyboard */,
-				703CAE841E88ED0F001685C7 /* Info.plist */,
-				703CAE7C1E88ED0F001685C7 /* DBSwiftMVP.xcdatamodeld */,
 			);
 			path = DBSwiftMVP;
 			sourceTree = "<group>";
@@ -128,6 +214,120 @@
 			path = DBSwiftMVPUITests;
 			sourceTree = "<group>";
 		};
+		7056CC111E88F388006EE269 /* DropboxAuthorisation */ = {
+			isa = PBXGroup;
+			children = (
+				70B5E0691E8C091100F68C24 /* DropboxLinking */,
+				7056CC261E89370E006EE269 /* DropboxAccount */,
+			);
+			name = DropboxAuthorisation;
+			sourceTree = "<group>";
+		};
+		7056CC261E89370E006EE269 /* DropboxAccount */ = {
+			isa = PBXGroup;
+			children = (
+				7056CC271E893765006EE269 /* AccountViewController.swift */,
+				7056CC291E893777006EE269 /* AccountPresenter.swift */,
+				7056CC2B1E89378E006EE269 /* AccountInteractor.swift */,
+			);
+			name = DropboxAccount;
+			sourceTree = "<group>";
+		};
+		7056CC2D1E895B2C006EE269 /* DropboxEntries */ = {
+			isa = PBXGroup;
+			children = (
+				70E1DFC01E8A4166007BD827 /* FileObject.swift */,
+				70E1DFBE1E8A4050007BD827 /* DropboxEntryViewObject.swift */,
+				7056CC2F1E895B63006EE269 /* DropboxEntryDetail */,
+				7056CC2E1E895B3C006EE269 /* DropboxEntriesOverview */,
+			);
+			name = DropboxEntries;
+			sourceTree = "<group>";
+		};
+		7056CC2E1E895B3C006EE269 /* DropboxEntriesOverview */ = {
+			isa = PBXGroup;
+			children = (
+				7056CC301E895CF9006EE269 /* DropboxEntriesTableViewController.swift */,
+				7056CC331E8961C5006EE269 /* DropboxEntriesPresenter.swift */,
+				7056CC351E8961DB006EE269 /* DropboxEntriesInteractor.swift */,
+				70E1DFC21E8A6491007BD827 /* DropboxEntryOverviewTableViewCell.swift */,
+			);
+			name = DropboxEntriesOverview;
+			sourceTree = "<group>";
+		};
+		7056CC2F1E895B63006EE269 /* DropboxEntryDetail */ = {
+			isa = PBXGroup;
+			children = (
+				70B5E05D1E8BAEDD00F68C24 /* DropboxEntryDetailViewController.swift */,
+				70B5E05F1E8BB1FD00F68C24 /* DropboxEntryDetailPresenter.swift */,
+				70B5E0611E8BB22700F68C24 /* DropboxEntryDetailInteractor.swift */,
+			);
+			name = DropboxEntryDetail;
+			sourceTree = "<group>";
+		};
+		70B5E0631E8C07FA00F68C24 /* Unnecessary fancy frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				701A7B3D1E8AA18A002A3375 /* SwiftSpinner */,
+			);
+			name = "Unnecessary fancy frameworks";
+			sourceTree = "<group>";
+		};
+		70B5E0641E8C082F00F68C24 /* Supporting files */ = {
+			isa = PBXGroup;
+			children = (
+				70B5E0681E8C08D700F68C24 /* Info */,
+				70B5E0671E8C08B700F68C24 /* Assets */,
+				70B5E0661E8C089D00F68C24 /* StoryBoards */,
+				70B5E0651E8C088D00F68C24 /* Core Data */,
+			);
+			name = "Supporting files";
+			sourceTree = "<group>";
+		};
+		70B5E0651E8C088D00F68C24 /* Core Data */ = {
+			isa = PBXGroup;
+			children = (
+				7056CC1A1E88F80A006EE269 /* DBSwiftMVP.entitlements */,
+				703CAE7C1E88ED0F001685C7 /* DBSwiftMVP.xcdatamodeld */,
+			);
+			name = "Core Data";
+			sourceTree = "<group>";
+		};
+		70B5E0661E8C089D00F68C24 /* StoryBoards */ = {
+			isa = PBXGroup;
+			children = (
+				703CAE791E88ED0F001685C7 /* Main.storyboard */,
+				703CAE811E88ED0F001685C7 /* LaunchScreen.storyboard */,
+			);
+			name = StoryBoards;
+			sourceTree = "<group>";
+		};
+		70B5E0671E8C08B700F68C24 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				703CAE7F1E88ED0F001685C7 /* Assets.xcassets */,
+			);
+			name = Assets;
+			sourceTree = "<group>";
+		};
+		70B5E0681E8C08D700F68C24 /* Info */ = {
+			isa = PBXGroup;
+			children = (
+				703CAE841E88ED0F001685C7 /* Info.plist */,
+			);
+			name = Info;
+			sourceTree = "<group>";
+		};
+		70B5E0691E8C091100F68C24 /* DropboxLinking */ = {
+			isa = PBXGroup;
+			children = (
+				7056CC121E88F3A3006EE269 /* AuthorisationViewController.swift */,
+				7056CC1B1E88FA28006EE269 /* AuthorisationPresenter.swift */,
+				7056CC1D1E88FA86006EE269 /* AuthorisationInteractor.swift */,
+			);
+			name = DropboxLinking;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +335,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 703CAE9D1E88ED0F001685C7 /* Build configuration list for PBXNativeTarget "DBSwiftMVP" */;
 			buildPhases = (
+				2CBFD6765D9B9D1534D556E2 /* [CP] Check Pods Manifest.lock */,
 				703CAE6E1E88ED0F001685C7 /* Sources */,
 				703CAE6F1E88ED0F001685C7 /* Frameworks */,
 				703CAE701E88ED0F001685C7 /* Resources */,
+				6A0B44419D85F49A34F88F5D /* [CP] Embed Pods Frameworks */,
+				7AC52E56B6F0DE8FFF00CD9F /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -152,9 +355,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 703CAEA01E88ED0F001685C7 /* Build configuration list for PBXNativeTarget "DBSwiftMVPTests" */;
 			buildPhases = (
+				F0BAA6881B68BDF9EB3A2CB2 /* [CP] Check Pods Manifest.lock */,
 				703CAE851E88ED0F001685C7 /* Sources */,
 				703CAE861E88ED0F001685C7 /* Frameworks */,
 				703CAE871E88ED0F001685C7 /* Resources */,
+				2CEED33D59B701BE8D9DD087 /* [CP] Embed Pods Frameworks */,
+				8161B756F13784B9D03E100E /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -170,9 +376,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 703CAEA31E88ED0F001685C7 /* Build configuration list for PBXNativeTarget "DBSwiftMVPUITests" */;
 			buildPhases = (
+				FA546CCD9B70E18B07831971 /* [CP] Check Pods Manifest.lock */,
 				703CAE901E88ED0F001685C7 /* Sources */,
 				703CAE911E88ED0F001685C7 /* Frameworks */,
 				703CAE921E88ED0F001685C7 /* Resources */,
+				56936098547DCA64508D38D2 /* [CP] Embed Pods Frameworks */,
+				5D290FC26257797458BF793E /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -198,6 +407,11 @@
 						CreatedOnToolsVersion = 8.2.1;
 						DevelopmentTeam = GKRLY4FBAV;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Keychain = {
+								enabled = 1;
+							};
+						};
 					};
 					703CAE881E88ED0F001685C7 = {
 						CreatedOnToolsVersion = 8.2.1;
@@ -238,9 +452,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				701A7B421E8AA18A002A3375 /* Info-tvOS.plist in Resources */,
 				703CAE831E88ED0F001685C7 /* LaunchScreen.storyboard in Resources */,
 				703CAE801E88ED0F001685C7 /* Assets.xcassets in Resources */,
 				703CAE7B1E88ED0F001685C7 /* Main.storyboard in Resources */,
+				701A7B431E8AA18A002A3375 /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,14 +476,167 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2CBFD6765D9B9D1534D556E2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		2CEED33D59B701BE8D9DD087 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DBSwiftMVPTests/Pods-DBSwiftMVPTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		56936098547DCA64508D38D2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DBSwiftMVPUITests/Pods-DBSwiftMVPUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5D290FC26257797458BF793E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DBSwiftMVPUITests/Pods-DBSwiftMVPUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6A0B44419D85F49A34F88F5D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DBSwiftMVP/Pods-DBSwiftMVP-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7AC52E56B6F0DE8FFF00CD9F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DBSwiftMVP/Pods-DBSwiftMVP-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8161B756F13784B9D03E100E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DBSwiftMVPTests/Pods-DBSwiftMVPTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F0BAA6881B68BDF9EB3A2CB2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		FA546CCD9B70E18B07831971 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		703CAE6E1E88ED0F001685C7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				703CAE781E88ED0F001685C7 /* ViewController.swift in Sources */,
+				7056CC131E88F3A3006EE269 /* AuthorisationViewController.swift in Sources */,
+				7056CC1E1E88FA86006EE269 /* AuthorisationInteractor.swift in Sources */,
+				7056CC281E893765006EE269 /* AccountViewController.swift in Sources */,
+				7056CC1C1E88FA28006EE269 /* AuthorisationPresenter.swift in Sources */,
+				70E1DFC31E8A6491007BD827 /* DropboxEntryOverviewTableViewCell.swift in Sources */,
+				70E1DFC11E8A4166007BD827 /* FileObject.swift in Sources */,
+				7056CC361E8961DB006EE269 /* DropboxEntriesInteractor.swift in Sources */,
+				70B5E0601E8BB1FD00F68C24 /* DropboxEntryDetailPresenter.swift in Sources */,
 				703CAE761E88ED0F001685C7 /* AppDelegate.swift in Sources */,
+				7056CC2A1E893777006EE269 /* AccountPresenter.swift in Sources */,
+				701A7B441E8AA18A002A3375 /* SwiftSpinner.swift in Sources */,
 				703CAE7E1E88ED0F001685C7 /* DBSwiftMVP.xcdatamodeld in Sources */,
+				70B5E05E1E8BAEDD00F68C24 /* DropboxEntryDetailViewController.swift in Sources */,
+				7056CC2C1E89378E006EE269 /* AccountInteractor.swift in Sources */,
+				70B5E0621E8BB22700F68C24 /* DropboxEntryDetailInteractor.swift in Sources */,
+				7056CC311E895CF9006EE269 /* DropboxEntriesTableViewController.swift in Sources */,
+				7056CC341E8961C5006EE269 /* DropboxEntriesPresenter.swift in Sources */,
+				70E1DFBF1E8A4050007BD827 /* DropboxEntryViewObject.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -417,10 +786,13 @@
 		};
 		703CAE9E1E88ED0F001685C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9038E2668A2BF6308F997BBE /* Pods-DBSwiftMVP.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = DBSwiftMVP/DBSwiftMVP.entitlements;
 				DEVELOPMENT_TEAM = GKRLY4FBAV;
 				INFOPLIST_FILE = DBSwiftMVP/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.jan.DBSwiftMVP;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -430,10 +802,13 @@
 		};
 		703CAE9F1E88ED0F001685C7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 249D2CB3730AE93B3C92B8F4 /* Pods-DBSwiftMVP.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = DBSwiftMVP/DBSwiftMVP.entitlements;
 				DEVELOPMENT_TEAM = GKRLY4FBAV;
 				INFOPLIST_FILE = DBSwiftMVP/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.jan.DBSwiftMVP;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -443,6 +818,7 @@
 		};
 		703CAEA11E88ED0F001685C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 65EF53C5191948BF1D6BD6A3 /* Pods-DBSwiftMVPTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -458,6 +834,7 @@
 		};
 		703CAEA21E88ED0F001685C7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 72000AF57425D1B54BF22619 /* Pods-DBSwiftMVPTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -473,6 +850,7 @@
 		};
 		703CAEA41E88ED0F001685C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E15D44E36E6D999CC09A4D45 /* Pods-DBSwiftMVPUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = GKRLY4FBAV;
@@ -487,6 +865,7 @@
 		};
 		703CAEA51E88ED0F001685C7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 819982B21E83C495E8065F47 /* Pods-DBSwiftMVPUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = GKRLY4FBAV;
@@ -518,6 +897,7 @@
 				703CAE9F1E88ED0F001685C7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		703CAEA01E88ED0F001685C7 /* Build configuration list for PBXNativeTarget "DBSwiftMVPTests" */ = {
 			isa = XCConfigurationList;
@@ -526,6 +906,7 @@
 				703CAEA21E88ED0F001685C7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		703CAEA31E88ED0F001685C7 /* Build configuration list for PBXNativeTarget "DBSwiftMVPUITests" */ = {
 			isa = XCConfigurationList;
@@ -534,6 +915,7 @@
 				703CAEA51E88ED0F001685C7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

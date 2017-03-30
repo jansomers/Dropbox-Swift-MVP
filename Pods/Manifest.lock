@@ -1,0 +1,18 @@
+PODS:
+  - Alamofire (4.0.1)
+  - EZLoadingActivity (1.01)
+  - SwiftyDropbox (4.1.1):
+    - Alamofire (~> 4.0.1)
+
+DEPENDENCIES:
+  - EZLoadingActivity
+  - SwiftyDropbox
+
+SPEC CHECKSUMS:
+  Alamofire: 7682d43245de14874acd142ec137b144aa1dd335
+  EZLoadingActivity: edd7e387e5197b116ce2cccb3fd747ababc2a510
+  SwiftyDropbox: dfcd4d308d32d74729255b48833db61acdfb9c23
+
+PODFILE CHECKSUM: 989eac74703b959301f5ba99f1a96eddb14afc93
+
+COCOAPODS: 1.2.0
