@@ -558,7 +558,7 @@
         <!--Navigation Controller-->
         <scene sceneID="qqe-wt-q4z">
             <objects>
-                <navigationController hidesBarsOnTap="YES" id="XDs-ew-kUU" sceneMemberID="viewController">
+                <navigationController id="XDs-ew-kUU" sceneMemberID="viewController">
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="dli-3d-ffl">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
